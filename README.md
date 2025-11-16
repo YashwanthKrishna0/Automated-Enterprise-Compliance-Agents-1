@@ -8,7 +8,7 @@
 
 ## 🚀 Overview
 
-ComplianceGuard AI reduces manual compliance work by 80% using intelligent agent coordination. Our multi-agent system provides real-time regulatory monitoring, automated gap analysis, and instant audit-ready reporting.
+ComplianceGuard AI reduces manual compliance work by 80% using intelligent agent..
 
 <img width="1024" height="535" alt="image" src="https://github.com/user-attachments/assets/4c4b8782-85cd-4724-bea5-eb32f5b4b7fe" />
 
@@ -26,7 +26,27 @@ ComplianceGuard AI reduces manual compliance work by 80% using intelligent agent
 
 ### Installation
 
-## Code Structer
+## Core Architecture Principles
+
+### 1. Multi-Agent System Design
+- **Agent Specialization**: Each agent has a specific domain expertise
+- **Sequential Workflow**: Data flows through agents in a structured pipeline
+- **Parallel Processing**: Multiple compliance checks run simultaneously
+- **Loop Monitoring**: Continuous regulatory change detection
+
+### 2. Microservices Architecture
+- **Containerized Deployment**: Docker-based containerization
+- **Cloud-Native**: Designed for Google Cloud Run and Kubernetes
+- **API-First**: RESTful APIs for all external integrations
+- **Stateless Design**: Session management for state preservation
+
+### 3. AI-Powered Intelligence
+- **Gemini Integration**: Google's Gemini models for complex reasoning
+- **Custom Tools**: Specialized compliance analysis tools
+- **Memory Management**: Long-term context preservation
+- **Adaptive Learning**: Continuous improvement from compliance patterns
+
+### Agent Layer
 
 complianceguard-ai/
 ├── 📁 agents/
@@ -44,6 +64,23 @@ complianceguard-ai/
 ├── 📄 LICENSE
 ├── 📄 config.yaml
 └── 📄 main.py
+
+### Monitoring
+- **Real-time metrics**: Performance and business metrics
+- **Alerting**: Proactive issue detection
+- **Logging**: Structured logging for debugging
+"""
+    
+    @staticmethod
+    def generate_agent_documentation() -> str:
+        """Generate detailed agent documentation"""
+        return """
+# Agent Documentation
+
+## Regulation Monitor Agent
+
+### Purpose
+Continuously monitors regulatory changes across multiple jurisdictions and alerts on compliance impacts.
 
 ```bash
 git clone https://github.com/yourusername/complianceguard-ai
