@@ -8,8 +8,7 @@
 
 ## 🚀 Overview
 
-ComplianceGuard AI reduces manual compliance work by 80% using intelligent agent coordination. Our multi-agent system provides real-time regulatory monitoring, automated gap analysis, and instant audit-ready reporting.
-
+ComplianceGuard AI reduces manual compliance work by 80% using intelligent agent.
 <img width="1024" height="535" alt="image" src="https://github.com/user-attachments/assets/4c4b8782-85cd-4724-bea5-eb32f5b4b7fe" />
 
 
